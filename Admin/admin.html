@@ -1,0 +1,611 @@
+
+<!-- http://myadmin-html.axiomthemes.com/ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+ <title>Admin</title>
+
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+
+ <link rel="stylesheet" type="text/css" href="admin.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+   <link rel="shortcut icon" type="image/x-icon" href="assets/logo_top.png" />
+</head>
+
+<body>
+
+<div class = "fixed-left-navbar">
+	<div class = "logo-top">
+		<a  href = "../index.html"> <img class = "logo img-responsive" src = "assets/logo.png"> </a>
+		<a  href = "../index.html"> <img class = "logo-small hide img-responsive" src = "assets/logo_small.png"> </a>
+	</div>
+
+	<div class = "navbar-profile clearfix">
+		<div class = "dark-box">
+			<div class = "navbar-left-container">
+				<img class = "avatar img-responsive img-circle" src = "assets/kitty.png">
+			</div>
+
+			<div class = "navbar-right-container">
+				<p class= "profile-welcome profile-word">Welcome </p>
+				<p class = "profile-john profile-word">John Iverson </p>
+			</div>
+		</div>
+	</div>
+
+	<div class = "navbar-title-container">
+			<ul class="nav-lst">
+				<li><span class = "nav-title"  href = ""> <span class = "hide-title">Dashboards</span>
+				<span class = " nav-title-icon glyphicon glyphicon-home"> </span>
+				</span>
+				</li>
+				<li><span class = "nav-title"  href = ""> <span class = "hide-title">New Emails</span>
+				<span class = " nav-title-icon glyphicon glyphicon-envelope"> </span>
+				</span>
+				</li>
+				<li><span class = "nav-title"  href = ""> <span class = "hide-title"> Calender </span>
+				<span class = " nav-title-icon glyphicon glyphicon-calendar"> </span>
+				</span>
+				</li>
+				
+				<li><span class ="nav-title"> <span class = "hide-title">Forms</span>
+					<span class = "forms glyphicon glyphicon-plus"></span>
+					<span class = "nav-title-icon glyphicon glyphicon-th-list"></span>
+				</span>
+					<div class = "sub-menu-bkg">
+						<ul class= "hide sub-menu">
+							<li>Elements
+							</li>
+							<li>Widgets
+							</li>
+							<li>Layouts
+							</li>
+							<li>Wizard
+							</li>
+							<li>Validation
+							</li>
+						</ul>
+					</div>
+				</li>
+
+				<li><span class = "nav-title"  href = ""> <span class = "hide-title">Sales Stats</span>
+				<span class = " nav-title-icon glyphicon glyphicon-share"> </span>
+				</span>
+				</li>
+				
+				<li><span class = "nav-title"  href = ""> <span class = "hide-title">Layout Templates</span>
+				<span class = " nav-title-icon glyphicon glyphicon-blackboard"> </span>
+				</span>
+				</li>
+
+				<li><span class = "nav-title"  href = ""> <span class = "hide-title">Management Tools</span>
+				<span class = " nav-title-icon glyphicon glyphicon-wrench"> </span>
+				</span>
+				</li>
+
+
+				<li><span class = "nav-title"  href = ""> <span class = "hide-title">Widgets </span>
+				<span class = " nav-title-icon glyphicon glyphicon-cog"> </span>
+				</span>
+				</li>
+
+				<li><span class = "nav-title"  href = ""> <span class = "hide-title">User Interface</span>
+				<span class = " nav-title-icon glyphicon glyphicon-star"> </span>
+				</span>
+				</li>
+
+				<li><span class = "nav-title"  href = ""> <span class = "hide-title">User Forms</span>
+				<span class = " nav-title-icon glyphicon glyphicon-list-alt"> </span>
+				</span>
+				</li>
+
+				<li><span class = "nav-title"  href = ""><span class = "hide-title"> Plugins</span>
+				<span class = " nav-title-icon glyphicon glyphicon-pencil"> </span>
+				</span>
+				</li>
+
+				<li><span class = "nav-title"  href = ""><span class = "hide-title"> Pages</span>
+				<span class = " nav-title-icon glyphicon glyphicon-file"> </span>
+				</span>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+ <div class = "fixed-top-navbar clearfix">
+ 	<div class = "top-navbar">
+
+ 	<div class = "col-lg-6">
+ 		<ul>
+			<li class = "menu-btn-left"><button type="button" class="btn btn-default btn-lg menu-btn admin-btn">
+  					<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+				</button>
+			</li>
+
+			<li class = "search-box"><div class = "search-bar-box">
+					<input type="text" class = "search-bar" placeholder="Search">
+
+					<button type="button" class="btn btn-default btn-lg search-btn admin-btn">
+  						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+				</div>
+			</li>
+			<li class = "dropdown-bttn-left">
+			<div class="dropdown">
+  				<button class="btn btn-default dropdown-toggle dropdown-bttn admin-btn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    				Dropdown
+    				<span class="caret"></span>
+  				</button>
+  				
+  				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    				<li><a href="#">Action</a></li>
+    				<li><a href="#">Another action</a></li>
+   					<li><a href="#">Something else here</a></li>
+   					<li role="separator" class="divider"></li>
+    				<li><a href="#">Separated link</a></li>
+  				</ul>
+			</div>
+		</li>
+		</ul>
+	</div> 
+
+	<div class= "col-lg-6">
+		<ul>
+			<li class= "top-nav-profile">
+				<img class = "avatar-top-nav img-responsive img-circle" src = "assets/kitty.png"> 
+			</li>
+			<li class = "avatar-name">
+				<a class = "john-top-nav"> John Iverson </a> 
+			</li>
+
+			<li class= "top-nav-two-btns">
+				<button type="button" class="btn btn-default btn-lg bell-btn admin-btn">
+  					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+				</button>
+
+				<button type="button" class="btn btn-default btn-lg bell-btn admin-btn" data-toggle="tooltip" data-placement="right" title="New">
+
+  					<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+				</button>
+			</li>
+			<li class = "lang-dropdown-left">
+				<div class="dropdown">
+	  				<button class="btn btn-default dropdown-toggle lang-dropdown admin-btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+	    				English
+	    				<span class="caret"></span>
+	  				</button>
+	  				
+	  				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+	    				<li><a href="#">English</a></li>
+	    				<li><a href="#">Spanish</a></li>
+	   					<li><a href="#">Turkish</a></li>
+	  				</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+	</div>
+</div>
+
+<div class = "main-container">
+	<div class = "row">
+		<div class = "col-lg-12">
+			<div class = "breadcrumb-nav">
+				<ol class="breadcrumb">
+					<li><span class = "bread-icon glyphicon glyphicon-home">
+					</li>
+	  				<li><a class = "bread-btn" href="#" >Home </span></a></li>
+	  				<li><a class = "bread-btn" href="#">Dashboard</a></li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class = "col-lg-6">
+			<div class = "colour-box colour-teal">
+				<span class = "colour-box-icon glyphicon glyphicon-shopping-cart"></span>
+				<h2 class = "colour-num"> 406 </h2>
+				<h3 class = "colour-word"> New Orders </h3>
+				<div class= "colour-bottom-tag">
+					<h2 class = "colour-bottom-word"> Last Week's Orders 
+					<h3 class = "colour-bottom-num"> 85 </h3></h2> 
+				</div>
+			</div>
+		</div>
+
+		<div class = "col-lg-6">
+			<div class = "colour-box colour-blue">
+				<span class = "colour-box-icon glyphicon glyphicon-user"></span>
+				<h2 class = "colour-num"> 6089 </h2>
+				<h3 class = "colour-word"> Unique Users</h3>
+				<div class= "colour-bottom-tag">
+					<h2 class = "colour-bottom-word"> Last Week's Users
+					<h3 class = "colour-bottom-num"> 2089 </h3></h2> 
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class = "col-lg-6">
+			<div class = "colour-box colour-red">
+				<span class = " colour-box-icon glyphicon glyphicon-gbp"></span>
+				<h2 class = "colour-num"> 7509 </h2>
+				<h3 class = "colour-word"> Total Profit </h3>
+				<div class= "colour-bottom-tag">
+					<h2 class = "colour-bottom-word"> Last Week's Profits
+					<h3 class = "colour-bottom-num"> 4153 </h3></h2> 
+				</div>
+			</div>
+		</div>
+
+		<div class = "col-lg-6">
+			<div class = "colour-box colour-purple">
+				<span class = "colour-box-icon glyphicon glyphicon-thumbs-up"></span>
+				<h2 class = "colour-num"> 186 </h2>
+				<h3 class = "colour-word"> Support Questions</h3>
+				<div class= "colour-bottom-tag">
+					<h2 class = "colour-bottom-word"> Last Week's Questions
+					<h3 class = "colour-bottom-num"> 153 </h2> 
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "row">
+		<!-- <div class ="col-lg-4">
+			<div class = "nav-cats">
+				<ul class="nav nav-pills nav-stacked">
+	  				<li role="presentation" class="active"><a class = "btn-find" href="#">Find Out More</a></li>
+	 				<li role="presentation"><a class = "cat-btn btn-snuggles" href="#">Snuggles</a></li>
+	  				<li role="presentation"><a class = "cat-btn btn-piggles" href="#">Piggles</a></li>
+	  				<li role="presentation"><a class = "cat-btn btn-fluffy" href="#">Fluffy</a></li>
+				</ul>
+			</div>
+
+		</div> -->
+
+		<div class = "col-lg-12">
+			
+				<div class = "cat-carousel">
+					<header id="myCarousel" class="carousel slide">
+       				 	<ol class="carousel-indicators">
+            				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            				<li data-target="#myCarousel" data-slide-to="1"></li>
+            				<li data-target="#myCarousel" data-slide-to="2"></li>
+       					</ol>
+
+        
+        				<div class="carousel-inner">
+            				<div class="item active">
+               				 	<div class="fill">
+               				 		<img class = "image" src = "assets/cat-1.jpg">
+               				 	</div>
+
+                				<div class="carousel-caption">
+                    				<h2>Snuggles</h2>
+                				</div>
+            				</div>
+
+            				<div class="item">
+                				<div class="fill">		
+                					<img class = "image" src = "assets/cat-2.jpg">
+                				</div>
+
+                				<div class="carousel-caption">
+                   					 <h2>Piggles</h2>
+                				</div>
+            				</div>
+
+            				<div class="item">
+                				<div class="fill">
+                					<img class = "image" src = "assets/cat-3.jpg">
+                				</div>
+
+                				<div class="carousel-caption">
+                    				<h2>Fluffy</h2>
+                				</div>
+                			</div>
+            			</div>
+
+		        		<div>
+		        			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		            			<span class="icon-prev"></span>
+		       				</a>
+		        			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		            			<span class="icon-next"></span>
+		        			</a>
+		        		</div>
+            		</header>	
+				</div>
+		</div>
+	</div>
+
+
+	<div class = "row">
+		<div class = "col-lg-8">
+	  		<div id="accordion" role="tablist" aria-multiselectable="true">
+		  		<div class = "drop-down-cat">
+			  		<div class="panel panel-default">
+			    		<div class="panel-heading" role="tab" id="headingOne">
+			      			<h4 class="panel-title">
+			        			<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          				Snuggles
+			       				</a>
+			      			</h4>
+			    		</div>
+
+			    		<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+			      			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			    		</div>
+			  		</div>
+
+			 		<div class="panel panel-default">
+			    		<div class="panel-heading" role="tab" id="headingTwo">
+			      			<h4 class="panel-title">
+			       				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          				Piggles
+			        			</a>
+			      			</h4>
+			    		</div>
+
+					    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+					      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					    </div>
+					 </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree">
+					      <h4 class="panel-title">
+					        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Fluffy
+					        </a>
+					      </h4>
+					    </div>
+
+					    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+					      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					    </div>
+			 		 </div>
+				</div>
+			</div>
+		</div>
+
+		<div class = "col-lg-4">
+				<div class="progress">
+				  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%; height: 20px">
+				    <span class="sr-only">40% Complete (success)</span>
+				    Facebook
+				  </div>
+				</div>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%; height: 20px">
+				    <span class="sr-only">20% Complete</span>
+				    Twitter
+				  </div>
+				</div>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; height: 20px ">
+				    <span class="sr-only">60% Complete (warning)</span>
+				    MySpace
+				  </div>
+				</div>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%; height: 20px">
+				    <span class="sr-only">80% Complete (danger)</span>
+				    Instagram
+				  </div>
+				</div>
+			</div>
+		</div>
+
+<!-- 			<div class = "row">
+				<div class = "col-lg-12">
+
+				 <form name="myForm" action="demo_form.asp" onsubmit="return validateForm()" method="post">
+
+						
+						<span>Name:</span> <input type="text" id = "fname" name=fname onblur="validate()"></input><div id = "errfn"></div>
+						
+
+     
+           			<label for="pass1">
+           				<span>Password:</span><input type="password" name="pass1" id="pass1" onblur = "nameValid()"><div id="messageName"></div>
+           			</label>
+        
+				    <label for="pass2">
+				    	<span>Confirm Password:</span><input type="password" name="pass2" id="pass2" onblur="checkPass()">
+				        <span id="confirmMessage" class="confirmMessage"></span>
+				    </label>
+					
+					<div class="control-group">
+						<h1>Which do you prefer</h1>
+						<label class="control control--radio control-cat">Cats
+							<input type="radio" name="radio"/>
+							<div class="control__indicator"></div>
+						</label>
+						
+						<label class="control control--radio control-dog">Dogs
+							<input type="radio" name="radio"/>
+							<div class="control__indicator"></div>
+						</label>
+						
+
+						<label class="control control--radio control-other">Other
+							<input type="radio" name="radio"/>
+							<div class="control__indicator"></div>
+						</label>
+							<span class="hide-msg"> Cats are great.</span>
+							<span class="hide-msg"> Dogs are great.</span>
+							<span class="hide-msg"> Other is great.</span>
+					</div>
+
+					<div>
+					<label> Who is your favourite to win?</label>
+						<select name="dropdown">
+							<option value="Snuggles" selected>Snuggles</option>
+							<option value="Piggles">Piggles</option>
+							<option value="Piggles">Fluffy</option>
+						</select>
+					</div>
+
+					Upload a picture of your cat to be entered into the competition.
+					<input type="file" name="fileupload" accept="image/*" />
+
+					Email Address:
+    				<input type="text" name="email" id = "email" onblur="checkEmail(); return false">
+    				<span id="messageEmail" class="messageEmail"></span>
+					
+					<input class = "submit-btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div> -->
+
+
+
+
+
+			<!-- 	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  					Find Out More
+				</button>
+
+				<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Hello!">Hover over me!</button>
+
+
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				        <h4 class="modal-title" id="myModalLabel">More Informtation</h4>
+				      </div>
+				      <div class="modal-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn-close btn btn-secondary" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div> -->
+
+<!--
+
+
+			<div class = "col-lg-6">
+			
+				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  					Launch demo modal
+				</button>
+
+
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				      </div>
+				      <div class="modal-body">
+				        ...
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary">Save changes</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+		<div class = "row">
+			<div class = "second-row">
+				<div class = "col-lg-4">
+				 
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Hello!">Hover over me!</button>
+				</div>
+
+
+				<div class = "col-lg-4">
+					<div class="dropdown">
+  						<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    						Dropdown trigger
+    						<span class="caret"></span>
+  						</button>
+  						
+  						<ul class="dropdown-menu" aria-labelledby="dLabel">
+    						<li> Item 1
+    						</li>
+    						<li> Item 2
+    						</li>
+    						<li> Item 3
+    						</li>
+  						</ul>
+					</div>
+				</div>
+
+				<div class = "col-lg-4">
+					<p>
+	  					<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+	    				Click me!
+	  				</a>
+ 
+					<div class="collapse" id="collapseExample">
+	  					<div class="card card-block">
+							   Boo!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class = "row">
+			<div class = "col-lg-3">
+
+			</div>
+
+			<div class = "col-lg-3 scrolling-tab">
+				 <div data-spy="scroll" data-target="#navbar-example">
+  						hjdsahjdshjdsdsdsdsadsjd jsahdksahdkjashd aksjhdksahdk  akjshdkashd
+  					<div id="navbar-example">
+	   					 <ul class="nav nav-tabs" role="tablist">
+	      					<li> sajdsadjahdjhdj </li>
+	      					<li>sdjnadjsnd</li>
+	      					<li>asdasddjdjd</li>
+	    				</ul>
+  					</div>
+								  sjsjsjsjs
+				</div> 
+			</div>
+
+			<div class = "col-lg-3">
+			</div>
+
+			<div class = "col-lg-3">
+			</div>
+		</div>
+	</div>
+</div>
+-->
+
+
+
+<script src="js/bootstrap.min.js"></script>    
+<script src ="js/admin.js"></script>
+</body>
+</html>
